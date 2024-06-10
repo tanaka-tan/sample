@@ -1,0 +1,59 @@
+/* .横並びA {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	& .列 {
+		background-color: orange;
+		width: 120px;
+	
+	}
+}
+
+.横並びB {
+	display: flex;
+	justify-content: space-between;
+	
+	& .広い列 {
+		background-color: lightblue;
+		width:200px;
+  }
+	
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px;
+	}
+}
+
+ */
+
+
+.動物横並び {
+	display: flex;
+	gap: 5px;
+	& .動物 {
+		width: 120px;
+	}
+}
+
+
+
+.動物 {
+	margin:2em auto;
+	padding:0.5em;
+	border:solid 2px black;
+}
+
+
+.動物名 {
+  font-size: 1.5em;
+	font-weight: bold;
+}
+
+.動物画像{
+  width: 100px;
+}
+
+.説明文 {
+	font-size: 13px;
+	
+}
